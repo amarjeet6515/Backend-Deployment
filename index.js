@@ -17,6 +17,9 @@ app.use("/user",userController);
 
 app.use(authenticate);
 
+
+
+
 app.use("/notes",notesController);
 
 connection.then(()=>{
